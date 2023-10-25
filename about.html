@@ -74,7 +74,28 @@
     </main>
 
     <footer>
+        <section id="foot" class="inline">
+            <nav>
+                <ol class="inline none">
+                    <li><a href="https://github.com/tylermeyers"><img src="images/github-mark.png" alt="Linked GitHub Logo" fetchpriority="low" height="50" width="50"></a></li>
+                    <li><a href="www.linkedin.com/in/tyler-meyers"><img src="images/LI-In-Bug.png" alt="Linked Linkedin Logo" fetchpriority="low" height="50" width="50"></a></li>
+                </ol>
+            </nav>
 
+            <form action="mailto:tylerleemeyers@gmail.com" method="get">
+                <fieldset>
+                    <legend>Wanna Contact me?</legend>
+                    <label for="subj">Subject:</label>
+                    <input list="subjs" id="subj" name="subj" type="text"/>
+                    <input type="submit" value="Send"/>
+                </fieldset>
+
+                <datalist id="subjs">
+                    <option value="Internship Opportunity"></option>
+                    <option value="Improvements to Site"></option>
+                    <option value="Other"></option>
+            </form>
+        </section>
     </footer>
 </body>
 
